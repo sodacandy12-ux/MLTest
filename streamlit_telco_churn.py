@@ -6,9 +6,11 @@ import joblib
 
 # 페이지 기본 설정
 st.set_page_config(page_title="통신 고객 이탈 예측 시스템", layout="wide")
+import matplotlib.pyplot as plt
+import matplotlib.font_manager as fm
 
-# 폰트 설정 (Windows 기준 Malgun Gothic)
-plt.rcParams['font.family'] = 'Malgun Gothic'
+# 나눔고딕 설정 및 마이너스 깨짐 방지
+plt.rcParams['font.family'] = 'NanumGothic'
 plt.rcParams['axes.unicode_minus'] = False
 
 
